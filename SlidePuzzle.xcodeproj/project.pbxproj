@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7619DB321982565F00A7B59C /* UIImage+Cropping.m in Sources */ = {isa = PBXBuildFile; fileRef = 7619DB311982565F00A7B59C /* UIImage+Cropping.m */; };
 		7629E2701977F9FB0019363C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7629E26F1977F9FB0019363C /* Foundation.framework */; };
 		7629E2721977F9FB0019363C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7629E2711977F9FB0019363C /* CoreGraphics.framework */; };
 		7629E2741977F9FB0019363C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7629E2731977F9FB0019363C /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7619DB301982565F00A7B59C /* UIImage+Cropping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Cropping.h"; sourceTree = "<group>"; };
+		7619DB311982565F00A7B59C /* UIImage+Cropping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Cropping.m"; sourceTree = "<group>"; };
 		7629E26C1977F9FB0019363C /* SlidePuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidePuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7629E26F1977F9FB0019363C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7629E2711977F9FB0019363C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +118,8 @@
 				7629E27E1977F9FB0019363C /* AppDelegate.h */,
 				7629E27F1977F9FB0019363C /* AppDelegate.m */,
 				7629E2811977F9FB0019363C /* Main.storyboard */,
+				7619DB301982565F00A7B59C /* UIImage+Cropping.h */,
+				7619DB311982565F00A7B59C /* UIImage+Cropping.m */,
 				7629E2841977F9FB0019363C /* ViewController.h */,
 				7629E2851977F9FB0019363C /* ViewController.m */,
 				7629E2871977F9FB0019363C /* Images.xcassets */,
@@ -252,6 +257,7 @@
 				7629E2861977F9FB0019363C /* ViewController.m in Sources */,
 				7629E2801977F9FB0019363C /* AppDelegate.m in Sources */,
 				7629E27C1977F9FB0019363C /* main.m in Sources */,
+				7619DB321982565F00A7B59C /* UIImage+Cropping.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +462,7 @@
 				7629E2A01977F9FB0019363C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7629E2A11977F9FB0019363C /* Build configuration list for PBXNativeTarget "SlidePuzzleTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				7629E2A31977F9FB0019363C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
